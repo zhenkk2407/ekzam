@@ -1,11 +1,30 @@
+body{
+    margin: 0 120px;
+    background-color: #011845;
+    color: #E8EDFF;
+    font-family: Gilroy;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22.4px;
+
+}
+.logo{
+    padding: 10px;
+}
 header{
+    display: flex;
+    width: 100%;
+    padding: 10px 0px 10px 0px;
+    justify-content: space-between;
+    align-items: center;
+    opacity: 0px;
 
 
 }
-
-.logo{
-    font-family: Oceanic TRIAL;
-    font-weight: 400;
-    font-size: 28px;
-    line-height: 39.2px;
+.text_menu{
+    width: 546px;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px 0px 10px 0px;
+    gap: 36px;
 }
