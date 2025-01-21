@@ -5,10 +5,10 @@ body{
     font-family: Gilroy;
     font-size: 16px;
     font-weight: 400;
-    line-height: 22.4px;
+    line-height: 25.2px;
 
 }
-.logo{
+.logo .basket{
     padding: 10px;
 }
 header{
@@ -18,8 +18,6 @@ header{
     justify-content: space-between;
     align-items: center;
     opacity: 0px;
-
-
 }
 .text_menu{
     width: 546px;
@@ -28,3 +26,74 @@ header{
     padding: 10px 0px 10px 0px;
     gap: 36px;
 }
+.main_name{
+    font-family:TRIAL Oceanic ;
+    font-size: 265px;
+    font-weight: 400;
+    color: #496192;
+    margin-bottom: 98px;
+    margin-top: 120px;
+    text-align: center;
+
+}
+.fish_rest{
+    display: flex;
+    justify-content: space-between;
+    font-family: TRIAL Oceanic ;
+    font-size: 80px;
+    font-weight: 500;
+}
+
+.fish{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    font-size: 18px;
+    width: 370px;
+}
+
+.icon_descr{
+    display: flex;
+    justify-content: space-between;
+    gap: 24px;
+}
+
+.icon_descr p{
+    width: 319px;
+}
+.rest{
+    display:flex;
+    flex-direction: column; 
+}
+.banner_discr{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.banner{
+    display: flex;
+    flex-direction: column;
+    height: 689px;
+    width: 100%;
+}
+
+.main_name .fish_rest .banner_discr{
+    z-index: 2;
+}
+
+.fork{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index:  3; 
+    width: 220px;
+    height: 590px;
+
+}
+.light1{
+    position: absolute;
+    z-index:  -1; 
+}
+
