@@ -3,7 +3,7 @@ body{
     background-color: #011845;
     color: #E8EDFF;
     font-family: Gilroy;
-    font-size: 16px;
+    font-size: 18px;
     font-weight: 400;
     line-height: 25.2px;
 
@@ -19,12 +19,13 @@ header{
     align-items: center;
     opacity: 0px;
 }
-.text_menu{
+.text_header{
     width: 546px;
     display: flex;
     justify-content: space-around;
     padding: 10px 0px 10px 0px;
     gap: 36px;
+    font-size: 16px;
 }
 .main_name{
     font-family:TRIAL Oceanic ;
@@ -48,7 +49,6 @@ header{
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    font-size: 18px;
     width: 370px;
 }
 
@@ -94,6 +94,63 @@ header{
 }
 .light1{
     position: absolute;
+    top: 0;
     z-index:  -1; 
+}
+
+.head_container{
+    display: grid;
+    grid-template-columns: 202px 1fr; 
+    grid-template-rows: auto auto;    
+                      
+    width: 100%; 
+    justify-items: left;
+    margin-top: 140px;
+
+}
+.little {
+    grid-column: 1; 
+    grid-row: 1;
+    font-family: Gilroy;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 16.8px;
+    align-self: center;
+   
+  }
+  
+.big1 {
+    grid-column: 2; 
+    grid-row: 1;  
+    font-family: TRIAL Oceanic ;
+    font-size: 56px;
+    font-weight: 500;
+    line-height: 58.8px;
+    align-self: center;
+    margin: 0 0;
+}
+  
+.big2 {
+    grid-column: 1 / -1; 
+    grid-row: 2;         
+    font-family: TRIAL Oceanic ;
+    font-size: 56px;
+    font-weight: 500;
+    line-height: 58.8px;
+    margin: 0 0;
+  }
+
+.history_descr{
+    width: 488px;
+}
+
+.history_chef{
+    width: 590px;
+
+}
+.history{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
