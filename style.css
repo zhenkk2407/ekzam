@@ -1,5 +1,5 @@
 body{
-    margin: 0 120px;
+    padding: 0 120px;
     background-color: #011845;
     color: #E8EDFF;
     font-family: Gilroy;
@@ -34,6 +34,7 @@ header{
     color: #496192;
     margin-bottom: 98px;
     margin-top: 120px;
+    max-width: 1200px;
     text-align: center;
 
 }
@@ -95,6 +96,8 @@ header{
 .light1{
     position: absolute;
     top: 0;
+    width: 100%;
+    max-width: 1200px;
     z-index:  -1; 
 }
 
@@ -154,3 +157,81 @@ header{
     align-items: center;
 }
 
+
+.sea_breeze{
+    font-family: TRIAL Oceanic;
+    font-size: 36px;
+    text-align: left;
+    margin: 0;
+}
+
+.sea_breeze_descr{
+    line-height: 21.6px;
+    margin: 0;
+}
+.sea_breeze_pr_gr{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.sb_price{
+    font-weight: 600;
+    margin: 0;
+}
+.sb_gramm{
+    font-family: Gilroy;
+    font-size: 12px;
+    line-height: 14.4px;
+    margin: 0;
+}
+
+.rectangle_left{
+    display: flex;
+    width: 386px;
+    height: 291px; 
+    position: absolute;
+    left: 100px; 
+    top: 50%;
+    transform: translateY(-50%);
+    flex-direction: column;
+    justify-content: space-between;
+    align-content: center;
+    gap: 20px;
+
+}
+.crab{
+    width: 480px;
+    height: 480px;
+    position: absolute;
+    right: 100px; 
+    top: 50%;
+    transform: translateY(-50%); /* Центровка по вертикали */
+    z-index: 1;
+}
+.menu{
+    display: flex;
+    flex-direction: column;
+    position: relative; 
+    margin-top: 64px;
+    align-items: center;
+
+}
+
+.in_busket{
+    width: 180px;
+    height: 65px;
+}
+
+.rectangle{
+    width: 100%;
+    height: 391px;
+    background-color: #496192;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative; 
+}
+.go_menu{
+    margin-top: 75px;
+}
