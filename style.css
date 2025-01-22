@@ -157,7 +157,14 @@ header{
     align-items: center;
 }
 
+.menu{
+    display: flex;
+    flex-direction: column;
+    position: relative; 
+    margin-top: 64px;
+    align-items: center;
 
+}
 .sea_breeze{
     font-family: TRIAL Oceanic;
     font-size: 36px;
@@ -209,14 +216,7 @@ header{
     transform: translateY(-50%); /* Центровка по вертикали */
     z-index: 1;
 }
-.menu{
-    display: flex;
-    flex-direction: column;
-    position: relative; 
-    margin-top: 64px;
-    align-items: center;
 
-}
 
 .in_busket{
     width: 180px;
@@ -234,4 +234,19 @@ header{
 }
 .go_menu{
     margin-top: 75px;
+}
+
+.side_arrow {
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top: 50%; 
+    transform: translateY(-50%);
+    z-index: 2;
+}
+.left_arrow {
+    left: 30px; 
+}
+.right_arrow {
+    right: 30px; 
 }
