@@ -405,3 +405,50 @@ header{
     gap: 60px;
     margin-top: 60px;
 }
+.head4_7{
+    margin-top: 150px;
+}
+.cont_heading{
+    font-family: TRIAL Oceanic;
+    font-size: 36px;
+    line-height: 43.2px;
+}
+
+.icon_contact{
+    display: flex;
+    gap: 8px;
+    align-items: center;
+}
+.icon_contact.socia{
+    gap: 20px;
+
+}
+
+.inf{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 16px;
+}
+.inf .soc{
+    gap: 20px;
+}
+
+.cont_img{
+    width: 590px;
+    height: 490px;
+}
+
+.contacts{
+    display: flex;
+    justify-content: space-between;
+    gap: 124px;
+    margin-top: 60px;
+}
+.cont_descr{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 36px;
+}
+
