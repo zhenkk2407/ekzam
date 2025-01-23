@@ -532,3 +532,24 @@ footer{
 .bottom_footer p{
     white-space: nowrap;
 }
+
+.ellipse{
+    z-index: -1;
+    position: absolute;
+    margin-left: -128px;
+}
+.blur1{
+    top:550px;
+}
+.blur2{
+    top:2900px;
+}
+.blur3{
+    top:4850px;
+}
+.blur_back{
+    z-index: -1;
+    position: absolute;
+    top: 2100px;
+    
+}
